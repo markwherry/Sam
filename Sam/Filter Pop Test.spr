@@ -1,0 +1,26 @@
+<Project>
+ <Instruments>
+  <Instrument name="Filter Test Tone" uuid="a82e7600-510f-40fd-97a3-d5460ae8dc37" filename="S:/Sam Instruments/Filter Tone Test/Filter Test Tone Samv2-Popping.sam" />
+ </Instruments>
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Quad)" id="101" streams="4" speakerConfig="Quad" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+   <Stream id="2" hardwareChannel="2" />
+   <Stream id="3" hardwareChannel="3" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="a82e7600-510f-40fd-97a3-d5460ae8dc37" version="0" midiInputPort="1000" midiInputChannel="1" position="0" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64">
+   <StreamMix name="Quad" description="Quad Stream Mix" mixer="Sam" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" />
+    <Stream setId="0" streamId="1" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" />
+    <Stream setId="1" streamId="1" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="101" />
+   </OutputBuses>
+  </Channel>
+ </Channels>
+</Project>

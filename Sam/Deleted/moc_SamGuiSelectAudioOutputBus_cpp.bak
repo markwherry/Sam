@@ -1,0 +1,106 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'SamGuiSelectAudioOutputBus.h'
+**
+** Created: Sat Apr 23 20:04:36 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../SamGuiSelectAudioOutputBus.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'SamGuiSelectAudioOutputBus.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SamGuiSelectAudioOutputBus[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      28,   27,   27,   27, 0x05,
+      50,   27,   27,   27, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      71,   27,   27,   27, 0x0a,
+      88,   81,   27,   27, 0x0a,
+     108,   27,   27,   27, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SamGuiSelectAudioOutputBus[] = {
+    "SamGuiSelectAudioOutputBus\0\0"
+    "audioOutputsUpdated()\0audioOutputUpdated()\0"
+    "refresh()\0action\0selectBus(QAction*)\0"
+    "updateAudioOutput()\0"
+};
+
+const QMetaObject SamGuiSelectAudioOutputBus::staticMetaObject = {
+    { &UiSelectMenu::staticMetaObject, qt_meta_stringdata_SamGuiSelectAudioOutputBus,
+      qt_meta_data_SamGuiSelectAudioOutputBus, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SamGuiSelectAudioOutputBus::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SamGuiSelectAudioOutputBus::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SamGuiSelectAudioOutputBus::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SamGuiSelectAudioOutputBus))
+        return static_cast<void*>(const_cast< SamGuiSelectAudioOutputBus*>(this));
+    if (!strcmp(_clname, "AStateListener"))
+        return static_cast< AStateListener*>(const_cast< SamGuiSelectAudioOutputBus*>(this));
+    return UiSelectMenu::qt_metacast(_clname);
+}
+
+int SamGuiSelectAudioOutputBus::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UiSelectMenu::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: audioOutputsUpdated(); break;
+        case 1: audioOutputUpdated(); break;
+        case 2: refresh(); break;
+        case 3: selectBus((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
+        case 4: updateAudioOutput(); break;
+        default: ;
+        }
+        _id -= 5;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SamGuiSelectAudioOutputBus::audioOutputsUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void SamGuiSelectAudioOutputBus::audioOutputUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+QT_END_MOC_NAMESPACE

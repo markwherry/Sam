@@ -1,0 +1,23 @@
+<UI version="4.0" stdSetDef="1" >
+ <class>SamGuiToolEditorToolbarClass</class>
+ <widget class="QWidget" name="SamGuiToolEditorToolbarClass" >
+  <property name="objectName" >
+   <string notr="true">SamGuiToolEditorToolbarClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>400</width>
+	<height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>SamGuiToolEditorToolbar</string>
+  </property>  
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</UI>

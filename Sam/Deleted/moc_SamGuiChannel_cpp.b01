@@ -1,0 +1,199 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'SamGuiChannel.h'
+**
+** Created: Sat May 7 17:52:39 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../SamGuiChannel.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'SamGuiChannel.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SamGuiChannel[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      23,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       9,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      23,   15,   14,   14, 0x05,
+      62,   14,   14,   14, 0x05,
+      83,   14,   14,   14, 0x05,
+     102,   14,   14,   14, 0x05,
+     128,   14,   14,   14, 0x05,
+     154,   14,   14,   14, 0x05,
+     176,   14,   14,   14, 0x05,
+     203,   14,   14,   14, 0x05,
+     226,  218,   14,   14, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     258,  248,   14,   14, 0x0a,
+     278,   14,   14,   14, 0x0a,
+     298,   14,   14,   14, 0x0a,
+     325,  316,   14,   14, 0x0a,
+     347,   14,   14,   14, 0x0a,
+     375,   14,   14,   14, 0x0a,
+     409,  403,   14,   14, 0x0a,
+     436,  430,   14,   14, 0x0a,
+     456,   14,   14,   14, 0x0a,
+     481,   14,   14,   14, 0x0a,
+     506,   14,   14,   14, 0x0a,
+     527,   14,   14,   14, 0x0a,
+     552,   14,   14,   14, 0x0a,
+     578,  218,   14,   14, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SamGuiChannel[] = {
+    "SamGuiChannel\0\0channel\0"
+    "editInstrumentFromChannel(SamChannel*)\0"
+    "midiChannelUpdated()\0midiMutedUpdated()\0"
+    "articulationLockUpdated()\0"
+    "articulationModeUpdated()\0"
+    "articulationUpdated()\0articulationColorUpdated()\0"
+    "layerUpdated()\0ev,port\0midiReceived(int,int)\0"
+    "itemIndex\0setMidiChannel(int)\0"
+    "updateMidiChannel()\0updateMidiMuted()\0"
+    "id,flags\0setMidiMuted(int,int)\0"
+    "toggleArticulationLock(int)\0"
+    "toggleArticulationMode(int)\0index\0"
+    "setArticulation(int)\0value\0"
+    "setNumVoices(float)\0updateArticulationLock()\0"
+    "updateArticulationMode()\0updateArticulation()\0"
+    "updateArticulationList()\0"
+    "updateArticulationColor()\0midiEvent(int,int)\0"
+};
+
+const QMetaObject SamGuiChannel::staticMetaObject = {
+    { &UiListItem::staticMetaObject, qt_meta_stringdata_SamGuiChannel,
+      qt_meta_data_SamGuiChannel, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SamGuiChannel::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SamGuiChannel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SamGuiChannel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SamGuiChannel))
+        return static_cast<void*>(const_cast< SamGuiChannel*>(this));
+    if (!strcmp(_clname, "AStateListener"))
+        return static_cast< AStateListener*>(const_cast< SamGuiChannel*>(this));
+    return UiListItem::qt_metacast(_clname);
+}
+
+int SamGuiChannel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UiListItem::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: editInstrumentFromChannel((*reinterpret_cast< SamChannel*(*)>(_a[1]))); break;
+        case 1: midiChannelUpdated(); break;
+        case 2: midiMutedUpdated(); break;
+        case 3: articulationLockUpdated(); break;
+        case 4: articulationModeUpdated(); break;
+        case 5: articulationUpdated(); break;
+        case 6: articulationColorUpdated(); break;
+        case 7: layerUpdated(); break;
+        case 8: midiReceived((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 9: setMidiChannel((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 10: updateMidiChannel(); break;
+        case 11: updateMidiMuted(); break;
+        case 12: setMidiMuted((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 13: toggleArticulationLock((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 14: toggleArticulationMode((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 15: setArticulation((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 16: setNumVoices((*reinterpret_cast< float(*)>(_a[1]))); break;
+        case 17: updateArticulationLock(); break;
+        case 18: updateArticulationMode(); break;
+        case 19: updateArticulation(); break;
+        case 20: updateArticulationList(); break;
+        case 21: updateArticulationColor(); break;
+        case 22: midiEvent((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        default: ;
+        }
+        _id -= 23;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SamGuiChannel::editInstrumentFromChannel(SamChannel * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void SamGuiChannel::midiChannelUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void SamGuiChannel::midiMutedUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void SamGuiChannel::articulationLockUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, 0);
+}
+
+// SIGNAL 4
+void SamGuiChannel::articulationModeUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, 0);
+}
+
+// SIGNAL 5
+void SamGuiChannel::articulationUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void SamGuiChannel::articulationColorUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, 0);
+}
+
+// SIGNAL 7
+void SamGuiChannel::layerUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, 0);
+}
+
+// SIGNAL 8
+void SamGuiChannel::midiReceived(int _t1, int _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 8, _a);
+}
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,33 @@
+<Project>
+ <Instruments>
+  <Instrument name="AAD Bass Trombones long" uuid="496a6b5a-68fa-4713-adbe-a499424f90ac" filename="S:/Sam Instruments/AAD Bass Trombones Quad/AAD Bass Trombones Quad v4 Mod Fix.sam" />
+ </Instruments>
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Quad)" id="100" streams="4" speakerConfig="Quad" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+   <Stream id="2" hardwareChannel="2" />
+   <Stream id="3" hardwareChannel="3" />
+  </HardwareBus>
+  <HardwareBus name="Output 2 (Quad)" id="101" streams="4" speakerConfig="Quad" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="4" />
+   <Stream id="1" hardwareChannel="5" />
+   <Stream id="2" hardwareChannel="6" />
+   <Stream id="3" hardwareChannel="7" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="496a6b5a-68fa-4713-adbe-a499424f90ac" version="0" midiInputPort="1000" midiInputChannel="1" position="0" articulationLock="0" articulationMode="0" currentArticulation="6">
+   <StreamMix name="Multi-mono" description="Simple Multi-mono Stream Mix" mixer="Sam" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" />
+    <Stream setId="3" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Long" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="100" />
+    <OutputBus name="Short" id="1" streams="4" speakerConfig="Quad" audioOutputBusId="101" />
+   </OutputBuses>
+  </Channel>
+ </Channels>
+</Project>

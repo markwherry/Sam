@@ -1,0 +1,89 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'SeGuiZoneEditor.h'
+**
+** Created: Sat Apr 23 20:04:27 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../SeGuiZoneEditor.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'SeGuiZoneEditor.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SeGuiZoneEditor[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       4,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      17,   16,   16,   16, 0x0a,
+      37,   16,   16,   16, 0x0a,
+      62,   56,   16,   16, 0x0a,
+     112,   87,   16,   16, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SeGuiZoneEditor[] = {
+    "SeGuiZoneEditor\0\0updateZoneDisplay()\0"
+    "updateScrollBars()\0value\0"
+    "setHorizontalScroll(int)\0"
+    "pitch,velocity,modifiers\0"
+    "selectFromPianoKeyboard(int,int,int)\0"
+};
+
+const QMetaObject SeGuiZoneEditor::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_SeGuiZoneEditor,
+      qt_meta_data_SeGuiZoneEditor, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SeGuiZoneEditor::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SeGuiZoneEditor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SeGuiZoneEditor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SeGuiZoneEditor))
+        return static_cast<void*>(const_cast< SeGuiZoneEditor*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int SeGuiZoneEditor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: updateZoneDisplay(); break;
+        case 1: updateScrollBars(); break;
+        case 2: setHorizontalScroll((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 3: selectFromPianoKeyboard((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        default: ;
+        }
+        _id -= 4;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

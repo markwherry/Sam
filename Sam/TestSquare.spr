@@ -1,0 +1,22 @@
+<Project>
+ <Instruments>
+  <Instrument name="Square" uuid="5306cf04-64f6-4148-8a7f-6cdc4e6dbe24" filename="S:/Sam Instruments/First Instrument/testsqaure.sam" />
+ </Instruments>
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Stereo)" id="100" streams="2" speakerConfig="Stereo" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="5306cf04-64f6-4148-8a7f-6cdc4e6dbe24" version="0" midiInputPort="1000" midiInputChannel="1" position="0" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64">
+   <StreamMix name="Default Mix" description="" outputConfiguration="Stereo">
+    <Stream setId="0" streamId="0" gain="0.500000" midiGainController="4" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" />
+    <Stream setId="0" streamId="1" gain="0.500000" midiGainController="4" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="100" />
+   </OutputBuses>
+  </Channel>
+ </Channels>
+</Project>

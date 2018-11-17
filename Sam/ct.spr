@@ -1,0 +1,41 @@
+<Project>
+ <Instruments>
+  <Instrument name="Hello, world." uuid="5307cf04-64f6-4148-8a7f-6cdc4e6dbe24" filename="S:/Sam Instruments/First Instrument/test.sam" />
+ </Instruments>
+ <Tempo bpm="120.000000" />
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Stereo)" id="101" streams="2" speakerConfig="Stereo" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+   <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="5307cf04-64f6-4148-8a7f-6cdc4e6dbe24" version="0" midiInputPort="1000" midiInputChannel="1" midiMuted="0" position="0" articulationLock="0" articulationMode="0" currentArticulation="0" voices="8" downbeatOffset="0">
+   <MidiNoteAttenuation attenuationStart="21" attenuationEnd="109" attenuationFadeIn="0" attenuationFadeOut="0" attenuationFadeInQ="0.500000" attenuationFadeOutQ="0.500000" />
+   <StreamMix name="Default Mix" description="" outputConfiguration="Stereo">
+    <Stream setId="0" streamId="0" gain="0.250000" midiGainController="4" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="0" streamId="1" gain="0.250000" midiGainController="4" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="101">
+     <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+    </OutputBus>
+   </OutputBuses>
+   <MusicToolInserts>
+    <MusicToolInsert id="0" name="Converge" uuid="88DDA77C-A7C3-41ff-9E65-8A70E9A09E76" active="1">
+     <MusicTool>
+      <Parameter id="1000" name="Pitch" value="0.484127" />
+      <Parameter id="1001" name="Midi Controller" value="0.015625" />
+     </MusicTool>
+    </MusicToolInsert>
+   </MusicToolInserts>
+  </Channel>
+ </Channels>
+</Project>

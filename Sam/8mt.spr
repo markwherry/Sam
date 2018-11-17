@@ -1,0 +1,79 @@
+<Project>
+ <Instruments>
+  <Instrument name="Simplest Piano" uuid="S:/Mark Piano/MarkPiano.exs" filename="S:/Mark Piano/TestPiano.sam" />
+ </Instruments>
+ <Tempo bpm="120.000000" />
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Stereo)" id="101" streams="2" speakerConfig="Stereo" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+   <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="S:/Mark Piano/MarkPiano.exs" version="0" midiInputPort="1000" midiInputChannel="1" midiMuted="0" position="0" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <MidiNoteAttenuation attenuationStart="21" attenuationEnd="109" attenuationFadeIn="0" attenuationFadeOut="0" attenuationFadeInQ="0.500000" attenuationFadeOutQ="0.500000" />
+   <StreamMix name="Stereo" description="Simple Stereo Stream Mix" mixer="Sam" outputConfiguration="Stereo">
+    <Stream setId="0" streamId="0" gain="0.500000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="0" streamId="1" gain="0.500000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="101">
+     <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+    </OutputBus>
+   </OutputBuses>
+   <MusicToolInserts>
+    <MusicToolInsert id="1" name="Velocity Sender" uuid="661BA0D2-4A7C-4f0c-AF79-6995ABF0F4F5" active="1">
+     <MusicTool>
+      <Parameter id="1000" name="Send" value="0.000000" />
+      <Parameter id="1001" name="Threshold" value="0.634921" />
+      <Parameter id="1002" name="Scale" value="0.000000" />
+      <Parameter id="1003" name="Invert" value="0.000000" />
+      <Parameter id="1005" name="Min" value="0.000000" />
+      <Parameter id="1004" name="Max" value="1.000000" />
+      <Parameter id="1006" name="Bypass Controller" value="0.164063" />
+     </MusicTool>
+    </MusicToolInsert>
+    <MusicToolInsert id="3" name="Velocity Sender" uuid="661BA0D2-4A7C-4f0c-AF79-6995ABF0F4F5" active="1">
+     <MusicTool>
+      <Parameter id="1000" name="Send" value="0.333333" />
+      <Parameter id="1001" name="Threshold" value="0.634921" />
+      <Parameter id="1002" name="Scale" value="0.000000" />
+      <Parameter id="1003" name="Invert" value="0.000000" />
+      <Parameter id="1005" name="Min" value="0.000000" />
+      <Parameter id="1004" name="Max" value="1.000000" />
+      <Parameter id="1006" name="Bypass Controller" value="0.164063" />
+     </MusicTool>
+    </MusicToolInsert>
+    <MusicToolInsert id="5" name="Velocity Sender" uuid="661BA0D2-4A7C-4f0c-AF79-6995ABF0F4F5" active="1">
+     <MusicTool>
+      <Parameter id="1000" name="Send" value="0.666667" />
+      <Parameter id="1001" name="Threshold" value="0.634921" />
+      <Parameter id="1002" name="Scale" value="0.000000" />
+      <Parameter id="1003" name="Invert" value="0.000000" />
+      <Parameter id="1005" name="Min" value="0.000000" />
+      <Parameter id="1004" name="Max" value="1.000000" />
+      <Parameter id="1006" name="Bypass Controller" value="0.164063" />
+     </MusicTool>
+    </MusicToolInsert>
+    <MusicToolInsert id="7" name="Velocity Sender" uuid="661BA0D2-4A7C-4f0c-AF79-6995ABF0F4F5" active="1">
+     <MusicTool>
+      <Parameter id="1000" name="Send" value="1.000000" />
+      <Parameter id="1001" name="Threshold" value="0.634921" />
+      <Parameter id="1002" name="Scale" value="0.000000" />
+      <Parameter id="1003" name="Invert" value="0.000000" />
+      <Parameter id="1005" name="Min" value="0.000000" />
+      <Parameter id="1004" name="Max" value="1.000000" />
+      <Parameter id="1006" name="Bypass Controller" value="0.164063" />
+     </MusicTool>
+    </MusicToolInsert>
+   </MusicToolInserts>
+  </Channel>
+ </Channels>
+</Project>

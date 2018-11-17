@@ -1,0 +1,35 @@
+<Project>
+ <Instruments>
+  <Instrument name="Simplest Piano" uuid="S:/Mark Piano/MarkPiano.exs" filename="S:/Mark Piano/TestPiano.sam" />
+ </Instruments>
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Stereo)" id="105" streams="2" speakerConfig="Stereo" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+  </HardwareBus>
+  <HardwareBus name="Output 2 (Stereo)" id="106" streams="2" speakerConfig="Stereo" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="2" />
+   <Stream id="1" hardwareChannel="3" />
+  </HardwareBus>
+  <HardwareBus name="Output 1 (Stereo)" id="105" streams="2" speakerConfig="Stereo" audioOutputBusId="0">
+     <Stream id="0" hardwareChannel="0" />
+     <Stream id="1" hardwareChannel="1" />
+    </HardwareBus>
+    <HardwareBus name="Output 2 (Stereo)" id="106" streams="2" speakerConfig="Stereo" audioOutputBusId="0">
+     <Stream id="0" hardwareChannel="2" />
+     <Stream id="1" hardwareChannel="3" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="S:/Mark Piano/MarkPiano.exs" version="0" midiInputPort="1000" midiInputChannel="1" position="0" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <MidiNoteAttenuation attenuationStart="21" attenuationEnd="109" attenuationFadeIn="0" attenuationFadeOut="0" attenuationFadeInQ="0.500000" attenuationFadeOutQ="0.500000" />
+   <StreamMix name="Stereo" description="Simple Stereo Stream Mix" mixer="Sam" outputConfiguration="Stereo">
+    <Stream setId="0" streamId="0" gain="0.500000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="0" streamId="1" gain="0.500000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="105" />
+   </OutputBuses>
+  </Channel>
+ </Channels>
+</Project>

@@ -1,0 +1,183 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'SamGuiChannelProperties.h'
+**
+** Created: Sat May 7 17:52:39 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../SamGuiChannelProperties.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'SamGuiChannelProperties.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SamGuiChannelProperties[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      21,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       7,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      25,   24,   24,   24, 0x05,
+      50,   24,   24,   24, 0x05,
+      71,   24,   24,   24, 0x05,
+     115,   90,   24,   24, 0x05,
+     144,   24,   24,   24, 0x05,
+     168,   24,   24,   24, 0x05,
+     195,   24,   24,   24, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     230,  220,   24,   24, 0x0a,
+     250,   24,   24,   24, 0x0a,
+     274,   24,   24,   24, 0x0a,
+     294,   24,   24,   24, 0x0a,
+     321,  312,   24,   24, 0x0a,
+     363,  343,   24,   24, 0x0a,
+     393,   90,   24,   24, 0x0a,
+     421,  312,   24,   24, 0x0a,
+     448,  312,   24,   24, 0x0a,
+     478,   24,   24,   24, 0x0a,
+     501,   24,   24,   24, 0x0a,
+     527,  312,   24,   24, 0x0a,
+     555,   24,   24,   24, 0x0a,
+     579,  312,   24,   24, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SamGuiChannelProperties[] = {
+    "SamGuiChannelProperties\0\0"
+    "selectedChannelUpdated()\0midiChannelUpdated()\0"
+    "midiMutedUpdated()\0updatedObject,fromObject\0"
+    "sendGainUpdated(void*,void*)\0"
+    "downbeatOffsetUpdated()\0"
+    "layerMutesEnabledUpdated()\0"
+    "musicToolActiveUpdated()\0itemIndex\0"
+    "setMidiChannel(int)\0updateSelectedChannel()\0"
+    "updateMidiChannel()\0updateMidiMuted()\0"
+    "id,flags\0setMidiMuted(int,int)\0"
+    "faderId,value,flags\0sendFaderMoved(int,float,int)\0"
+    "updateSendGain(void*,void*)\0"
+    "setDownbeatOffset(int,int)\0"
+    "setLayerMutesEnabled(int,int)\0"
+    "updateDownbeatOffset()\0updateLayerMutesEnabled()\0"
+    "setMusicToolActive(int,int)\0"
+    "updateMusicToolActive()\0"
+    "showMusicToolEditor(int,int)\0"
+};
+
+const QMetaObject SamGuiChannelProperties::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_SamGuiChannelProperties,
+      qt_meta_data_SamGuiChannelProperties, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SamGuiChannelProperties::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SamGuiChannelProperties::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SamGuiChannelProperties::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SamGuiChannelProperties))
+        return static_cast<void*>(const_cast< SamGuiChannelProperties*>(this));
+    if (!strcmp(_clname, "AStateListener"))
+        return static_cast< AStateListener*>(const_cast< SamGuiChannelProperties*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int SamGuiChannelProperties::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: selectedChannelUpdated(); break;
+        case 1: midiChannelUpdated(); break;
+        case 2: midiMutedUpdated(); break;
+        case 3: sendGainUpdated((*reinterpret_cast< void*(*)>(_a[1])),(*reinterpret_cast< void*(*)>(_a[2]))); break;
+        case 4: downbeatOffsetUpdated(); break;
+        case 5: layerMutesEnabledUpdated(); break;
+        case 6: musicToolActiveUpdated(); break;
+        case 7: setMidiChannel((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 8: updateSelectedChannel(); break;
+        case 9: updateMidiChannel(); break;
+        case 10: updateMidiMuted(); break;
+        case 11: setMidiMuted((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 12: sendFaderMoved((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< float(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 13: updateSendGain((*reinterpret_cast< void*(*)>(_a[1])),(*reinterpret_cast< void*(*)>(_a[2]))); break;
+        case 14: setDownbeatOffset((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 15: setLayerMutesEnabled((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 16: updateDownbeatOffset(); break;
+        case 17: updateLayerMutesEnabled(); break;
+        case 18: setMusicToolActive((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 19: updateMusicToolActive(); break;
+        case 20: showMusicToolEditor((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        default: ;
+        }
+        _id -= 21;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SamGuiChannelProperties::selectedChannelUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void SamGuiChannelProperties::midiChannelUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void SamGuiChannelProperties::midiMutedUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+
+// SIGNAL 3
+void SamGuiChannelProperties::sendGainUpdated(void * _t1, void * _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void SamGuiChannelProperties::downbeatOffsetUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, 0);
+}
+
+// SIGNAL 5
+void SamGuiChannelProperties::layerMutesEnabledUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, 0);
+}
+
+// SIGNAL 6
+void SamGuiChannelProperties::musicToolActiveUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, 0);
+}
+QT_END_MOC_NAMESPACE

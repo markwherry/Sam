@@ -1,0 +1,23 @@
+<UI version="4.0" stdSetDef="1" >
+ <class>UiValueClass</class>
+ <widget class="QWidget" name="UiValueClass" >
+  <property name="objectName" >
+   <string notr="true">UiValueClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>400</width>
+	<height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>UiValue</string>
+  </property>  
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources/>
+ <connections/>
+</UI>

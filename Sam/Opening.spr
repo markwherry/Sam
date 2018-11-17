@@ -1,0 +1,83 @@
+<Project>
+ <Instruments>
+  <Instrument name="Instrument" uuid="289b1ac7-2aa5-44fd-b762-36d02d44f092" filename="S:/Sam Instruments/MEI Violins/MEI Violins Shorts.sam" />
+  <Instrument name="Instrument" uuid="e2e6aeec-aa31-4db4-800c-7a517c26ffd4" filename="S:/Sam Instruments/MEI Violins/MEI Violins Pass Long Fast.sam" />
+  <Instrument name="Longs" uuid="dfa17972-142d-4cdc-980e-69336b675dbf" filename="S:/Sam Instruments/MEI Full Strings/MEI Full String Longs v2.sam" />
+ </Instruments>
+ <Tempo bpm="120.000000" />
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Quad)" id="101" streams="4" speakerConfig="Quad" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+   <Stream id="2" hardwareChannel="2" />
+   <Stream id="3" hardwareChannel="3" />
+   <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+  </HardwareBus>
+  <HardwareBus name="Output 2 (Quad)" id="102" streams="4" speakerConfig="Quad" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="4" />
+   <Stream id="1" hardwareChannel="5" />
+   <Stream id="2" hardwareChannel="6" />
+   <Stream id="3" hardwareChannel="7" />
+   <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+   <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="289b1ac7-2aa5-44fd-b762-36d02d44f092" version="0" midiInputPort="1000" midiInputChannel="1" midiMuted="0" position="0" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <MidiNoteAttenuation attenuationStart="21" attenuationEnd="109" attenuationFadeIn="0" attenuationFadeOut="0" attenuationFadeInQ="0.500000" attenuationFadeOutQ="0.500000" />
+   <StreamMix name="Multi-mono" description="Simple Multi-mono Stream Mix" mixer="Sam" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="1.000000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="1" streamId="0" gain="1.000000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="2" streamId="0" gain="1.000000" midiGainController="-1" mute="1" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="3" streamId="0" gain="1.000000" midiGainController="-1" mute="1" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="101">
+     <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+    </OutputBus>
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="e2e6aeec-aa31-4db4-800c-7a517c26ffd4" version="0" midiInputPort="1000" midiInputChannel="2" midiMuted="0" position="1" articulationLock="0" articulationMode="0" currentArticulation="0" voices="256" downbeatOffset="0">
+   <MidiNoteAttenuation attenuationStart="21" attenuationEnd="109" attenuationFadeIn="0" attenuationFadeOut="0" attenuationFadeInQ="0.500000" attenuationFadeOutQ="0.500000" />
+   <StreamMix name="Multi-mono" description="Simple Multi-mono Stream Mix" mixer="Sam" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="1.000000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="1" streamId="0" gain="1.000000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="2" streamId="0" gain="1.000000" midiGainController="-1" mute="1" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="3" streamId="0" gain="1.000000" midiGainController="-1" mute="1" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="102">
+     <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+    </OutputBus>
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="dfa17972-142d-4cdc-980e-69336b675dbf" version="0" midiInputPort="1000" midiInputChannel="3" midiMuted="0" position="2" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <MidiNoteAttenuation attenuationStart="21" attenuationEnd="109" attenuationFadeIn="0" attenuationFadeOut="0" attenuationFadeInQ="0.500000" attenuationFadeOutQ="0.500000" />
+   <StreamMix name="Multi-mono" description="Simple Multi-mono Stream Mix" mixer="Sam" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="1.000000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="1" streamId="0" gain="1.000000" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="2" streamId="0" gain="1.000000" midiGainController="-1" mute="1" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+    <Stream setId="3" streamId="0" gain="1.000000" midiGainController="-1" mute="1" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="-1" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="101">
+     <Send id="0" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="1" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="2" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+     <Send id="3" active="0" audioBusId="0" gain="1.000000" preFader="0" />
+    </OutputBus>
+   </OutputBuses>
+  </Channel>
+ </Channels>
+</Project>

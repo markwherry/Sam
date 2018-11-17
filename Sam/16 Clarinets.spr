@@ -1,0 +1,239 @@
+<Project>
+ <Instruments>
+  <Instrument name="Clarinet Bb tongued" uuid="1b07585e-4052-4cec-44f8-34a80696ad9b" filename="G:/Users/Mark Wherry/Desktop/Clarinet Bb long 2/Clarinet Bb long 2/Clarinet Bb tongued 7Ch v2.sam" />
+ </Instruments>
+ <HardwareBuses>
+  <HardwareBus name="Output 1 (Quad)" id="101" streams="4" speakerConfig="Quad" audioOutputBusId="0">
+   <Stream id="0" hardwareChannel="0" />
+   <Stream id="1" hardwareChannel="1" />
+   <Stream id="2" hardwareChannel="2" />
+   <Stream id="3" hardwareChannel="3" />
+  </HardwareBus>
+ </HardwareBuses>
+ <Channels>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="1" position="0" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="2" position="1" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="3" position="2" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="4" position="3" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="5" position="4" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="6" position="5" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="7" position="6" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="8" position="7" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="9" position="8" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="10" position="9" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="11" position="10" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="12" position="11" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="13" position="12" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="14" position="13" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="15" position="14" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="1b07585e-4052-4cec-44f8-34a80696ad9b" version="0" midiInputPort="1000" midiInputChannel="16" position="15" articulationLock="0" articulationMode="0" currentArticulation="0" voices="64" downbeatOffset="0">
+   <StreamMix name="Through" description="" mixer="SLPT" outputConfiguration="Quad">
+    <Stream setId="0" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="1" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="2" streamId="0" gain="0.499488" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.535679" panY="0.000000" centerAmount="0.000000" group="0" />
+    <Stream setId="3" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="4" streamId="0" gain="0.343994" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="1.000000" centerAmount="0.000000" group="1" />
+    <Stream setId="5" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="0.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+    <Stream setId="6" streamId="0" gain="0.245621" midiGainController="-1" mute="0" solo="0" lfeGain="0.000000" panX="1.000000" panY="0.000000" centerAmount="0.000000" group="2" />
+   </StreamMix>
+   <OutputBuses>
+    <OutputBus name="Output (0)" id="0" streams="4" speakerConfig="Quad" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+ </Channels>
+</Project>

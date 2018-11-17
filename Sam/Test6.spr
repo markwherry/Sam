@@ -1,0 +1,28 @@
+<Project>
+ <Instruments>
+  <Instrument name="Hello, world." uuid="5307cf04-64f6-4148-8a7f-6cdc4e6dbe24" filename="S://Sam Instruments//First Instrument//test.sam" />
+ </Instruments>
+ <HardwareBuses />
+ <Channels>
+  <Channel instrumentUuid="5307cf04-64f6-4148-8a7f-6cdc4e6dbe24" version="0" midiInputPort="0" midiInputChannel="1" position="0" articulationLock="0" articulationMode="0" currentArticulation="0">
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="5307cf04-64f6-4148-8a7f-6cdc4e6dbe24" version="0" midiInputPort="0" midiInputChannel="4" position="1" articulationLock="0" articulationMode="0" currentArticulation="0">
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="5307cf04-64f6-4148-8a7f-6cdc4e6dbe24" version="0" midiInputPort="0" midiInputChannel="2" position="2" articulationLock="0" articulationMode="0" currentArticulation="0">
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+  <Channel instrumentUuid="5307cf04-64f6-4148-8a7f-6cdc4e6dbe24" version="0" midiInputPort="0" midiInputChannel="3" position="3" articulationLock="0" articulationMode="0" currentArticulation="0">
+   <OutputBuses>
+    <OutputBus name="Output" id="0" streams="2" speakerConfig="Stereo" audioOutputBusId="0" />
+   </OutputBuses>
+  </Channel>
+ </Channels>
+</Project>

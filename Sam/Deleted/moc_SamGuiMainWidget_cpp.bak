@@ -1,0 +1,128 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'SamGuiMainWidget.h'
+**
+** Created: Sun May 1 19:40:53 2011
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../SamGuiMainWidget.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'SamGuiMainWidget.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SamGuiMainWidget[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      12,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       3,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      18,   17,   17,   17, 0x05,
+      36,   17,   17,   17, 0x05,
+      58,   17,   17,   17, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      70,   17,   17,   17, 0x0a,
+      94,   17,   17,   17, 0x0a,
+     115,   17,   17,   17, 0x0a,
+     135,   17,   17,   17, 0x0a,
+     155,   17,   17,   17, 0x0a,
+     172,   17,   17,   17, 0x0a,
+     185,   17,   17,   17, 0x0a,
+     193,   17,   17,   17, 0x0a,
+     204,   17,   17,   17, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SamGuiMainWidget[] = {
+    "SamGuiMainWidget\0\0channelSelected()\0"
+    "articulationUpdated()\0timerTick()\0"
+    "updateSelectedChannel()\0updateArticulation()\0"
+    "selectNextChannel()\0selectPrevChannel()\0"
+    "editInstrument()\0properties()\0mixer()\0"
+    "keyboard()\0findChannel()\0"
+};
+
+const QMetaObject SamGuiMainWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_SamGuiMainWidget,
+      qt_meta_data_SamGuiMainWidget, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SamGuiMainWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SamGuiMainWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SamGuiMainWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SamGuiMainWidget))
+        return static_cast<void*>(const_cast< SamGuiMainWidget*>(this));
+    if (!strcmp(_clname, "AStateListener"))
+        return static_cast< AStateListener*>(const_cast< SamGuiMainWidget*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int SamGuiMainWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: channelSelected(); break;
+        case 1: articulationUpdated(); break;
+        case 2: timerTick(); break;
+        case 3: updateSelectedChannel(); break;
+        case 4: updateArticulation(); break;
+        case 5: selectNextChannel(); break;
+        case 6: selectPrevChannel(); break;
+        case 7: editInstrument(); break;
+        case 8: properties(); break;
+        case 9: mixer(); break;
+        case 10: keyboard(); break;
+        case 11: findChannel(); break;
+        default: ;
+        }
+        _id -= 12;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SamGuiMainWidget::channelSelected()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void SamGuiMainWidget::articulationUpdated()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, 0);
+}
+
+// SIGNAL 2
+void SamGuiMainWidget::timerTick()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, 0);
+}
+QT_END_MOC_NAMESPACE

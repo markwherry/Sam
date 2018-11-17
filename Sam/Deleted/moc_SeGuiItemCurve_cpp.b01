@@ -1,0 +1,130 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'SeGuiItemCurve.h'
+**
+** Created: Fri Sep 10 18:35:16 2010
+**      by: The Qt Meta Object Compiler version 62 (Qt 4.6.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "../../SeGuiItemCurve.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'SeGuiItemCurve.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 62
+#error "This file was generated using the moc from 4.6.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SeGuiItemCurve[] = {
+
+ // content:
+       4,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       8,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       4,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      30,   16,   15,   15, 0x05,
+      71,   54,   15,   15, 0x05,
+     110,   95,   15,   15, 0x05,
+     145,  132,   15,   15, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     172,  169,   15,   15, 0x0a,
+     205,  194,   15,   15, 0x0a,
+     229,  194,   15,   15, 0x0a,
+     253,  251,   15,   15, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SeGuiItemCurve[] = {
+    "SeGuiItemCurve\0\0propertyId,id\0"
+    "shapeChanged(int,float)\0propertyId,start\0"
+    "startChanged(int,float)\0propertyId,end\0"
+    "endChanged(int,float)\0propertyId,q\0"
+    "depthChanged(int,float)\0id\0"
+    "internalSetShape(int)\0percentage\0"
+    "internalSetStart(float)\0internalSetEnd(float)\0"
+    "q\0internalSetDepth(float)\0"
+};
+
+const QMetaObject SeGuiItemCurve::staticMetaObject = {
+    { &UiListItem::staticMetaObject, qt_meta_stringdata_SeGuiItemCurve,
+      qt_meta_data_SeGuiItemCurve, 0 }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SeGuiItemCurve::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SeGuiItemCurve::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SeGuiItemCurve::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SeGuiItemCurve))
+        return static_cast<void*>(const_cast< SeGuiItemCurve*>(this));
+    return UiListItem::qt_metacast(_clname);
+}
+
+int SeGuiItemCurve::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = UiListItem::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        switch (_id) {
+        case 0: shapeChanged((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< float(*)>(_a[2]))); break;
+        case 1: startChanged((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< float(*)>(_a[2]))); break;
+        case 2: endChanged((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< float(*)>(_a[2]))); break;
+        case 3: depthChanged((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< float(*)>(_a[2]))); break;
+        case 4: internalSetShape((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 5: internalSetStart((*reinterpret_cast< float(*)>(_a[1]))); break;
+        case 6: internalSetEnd((*reinterpret_cast< float(*)>(_a[1]))); break;
+        case 7: internalSetDepth((*reinterpret_cast< float(*)>(_a[1]))); break;
+        default: ;
+        }
+        _id -= 8;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SeGuiItemCurve::shapeChanged(int _t1, float _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void SeGuiItemCurve::startChanged(int _t1, float _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void SeGuiItemCurve::endChanged(int _t1, float _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void SeGuiItemCurve::depthChanged(int _t1, float _t2)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+QT_END_MOC_NAMESPACE
